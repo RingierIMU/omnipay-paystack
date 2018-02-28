@@ -1,0 +1,36 @@
+{
+  "name": "oneafricamedia/omnipay-paystack",
+  "type": "library",
+  "description": "Paystack gateway for Omnipay payment processing library",
+  "keywords": [
+    "gateway",
+    "merchant",
+    "omnipay",
+    "pay",
+    "payment",
+    "paystack",
+    "purchase"
+  ],
+  "homepage": "https://github.com/OneAfricaMedia/omnipay-paystack",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ROAM - Ringier OneAfricaMedia",
+      "email": "oamdev@roam.africa"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Omnipay\\Paystack\\" : "src/"
+    }
+  },
+  "require": {
+    "php": "^7.0",
+    "php-http/guzzle6-adapter": "^1.1"
+  },
+  "minimum-stability": "dev",
+  "require-dev": {
+    "omnipay/tests": "~3.0",
+    "omnipay/common": "dev-master@dev"
+  }
+}
